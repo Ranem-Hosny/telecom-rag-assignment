@@ -43,7 +43,7 @@ def orphan_stats(chunks):
             if "Router Model:" not in text:
                 orphaned += 1
     return total, orphaned
-
+# 
 
 def retrieve(chunks, query, k=TOP_K):
     vectorizer = TfidfVectorizer().fit(chunks + [query])
