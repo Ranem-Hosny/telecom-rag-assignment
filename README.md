@@ -240,3 +240,5 @@ without an API key or a model download. The notebook repeats the same comparison
 with the real stack — multilingual embeddings and FAISS — and reaches the same
 conclusion. The failure is structural: the answer chunk is absent from the index,
 so no retriever of any kind can return it.
+#   t e l e c o m - r a g - a s s i g n m e n t  
+ 
