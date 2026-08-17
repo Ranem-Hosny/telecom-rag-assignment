@@ -1,0 +1,53 @@
+####################################################################
+# STRUCTURAL COMPARISON
+####################################################################
+                                          Baseline        Markdown
+--------------------------------------------------------------------
+Total chunks                                   481             502
+Largest chunk (chars)                          495             740
+Chunks holding a VLAN ID answer                200             200
+  ... with NO router model name                200               0
+  ... orphan rate                             100%              0%
+--------------------------------------------------------------------
+
+In the baseline index, EVERY chunk containing a VLAN ID has been
+separated from the router model name it describes.
+
+####################################################################
+# RETRIEVAL COMPARISON
+####################################################################
+Query          : Router Model VDF-NOK-2026X7 factory reset reconfigure VLAN ID
+Correct answer : VLAN ID 35
+
+====================================================================
+ORIGINAL - RecursiveCharacterTextSplitter(500/100)
+====================================================================
+Chunks retrieved                                   : 20
+Chunks holding BOTH the model name and a VLAN ID   : 0
+
+No retrieved chunk links this router to a VLAN ID.
+The answer is unreachable for this index - raising k cannot help,
+because no such chunk exists anywhere in it.
+
+====================================================================
+NEW - MarkdownHeaderTextSplitter(strip_headers=False)
+====================================================================
+Chunks retrieved                                   : 20
+Chunks holding BOTH the model name and a VLAN ID   : 1
+
+Retrieved answer chunk:
+--------------------------------------------------------------------
+### Router Model: VDF-NOK-2026X7
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+--------------------------------------------------------------------
+Correct answer 'VLAN ID 35' present? True
+
+####################################################################
+# RESULT: baseline retrieved 0 usable chunk(s); markdown retrieved 1.
+# The new strategy retrieves a chunk the original method missed.
+####################################################################

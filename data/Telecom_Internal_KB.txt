@@ -1,0 +1,2818 @@
+# Telecom Egypt Internal Technical Support Knowledge Base (Confidential)
+
+## 1. General Service Level Agreement (SLA) & Dispatch Policies
+If a customer reports an internet outage (DSL blinking or no sync):
+- The L1 agent must first ensure the customer has restarted the router and checked internal wiring.
+- If the issue persists for more than 24 hours, the L1 agent must escalate to the Central Exchange team.
+- A Field Technician must be dispatched if the line noise margin is below 6dB or if the DSL light is completely off/blinking for 3 consecutive days.
+- The customer must be informed that the technician will contact them within 48 working hours.
+- Compensation of 5GB mobile data is authorized ONLY if the outage exceeds 72 hours.
+
+## 2. Hardware Specifications & Router Guides
+
+### Router Model: VDF-ZTE-2023X1
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2023X2
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2025X3
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2024X4
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2022X5
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2023X6
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2026X7
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2020X8
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2021X9
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2021X10
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2024X11
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2022X12
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2023X13
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2020X14
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2021X15
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2022X16
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2026X17
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2022X18
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2025X19
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2026X20
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2021X21
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2021X22
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2021X23
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2026X24
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2022X25
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2021X26
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2026X27
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2023X28
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2025X29
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2021X30
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2026X31
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2021X32
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2023X33
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2025X34
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2020X35
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2026X36
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2024X37
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2021X38
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2025X39
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2022X40
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2025X41
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2020X42
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2022X43
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2021X44
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2020X45
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2020X46
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2024X47
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2020X48
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2025X49
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2026X50
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2022X51
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2022X52
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2024X53
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2025X54
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2021X55
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2021X56
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2026X57
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2025X58
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2021X59
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2024X60
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2025X61
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2024X62
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2025X63
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2026X64
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2022X65
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2026X66
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2020X67
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2021X68
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2023X69
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2023X70
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2024X71
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2020X72
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2023X73
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2024X74
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2021X75
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2024X76
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2023X77
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2021X78
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2021X79
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2021X80
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2023X81
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2021X82
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2022X83
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2025X84
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2020X85
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2024X86
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2023X87
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2020X88
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2020X89
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2025X90
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2025X91
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2024X92
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2024X93
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2024X94
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2020X95
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2024X96
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2026X97
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2025X98
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2020X99
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2021X100
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2026X101
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2023X102
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2023X103
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2024X104
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2021X105
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2026X106
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2020X107
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2021X108
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2026X109
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2023X110
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2024X111
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2023X112
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2024X113
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2020X114
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2021X115
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2025X116
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2023X117
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2020X118
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2020X119
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2025X120
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2021X121
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2022X122
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2025X123
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2023X124
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2025X125
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2020X126
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2024X127
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2023X128
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2026X129
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2021X130
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2023X131
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2020X132
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2020X133
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2020X134
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2022X135
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2022X136
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2024X137
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2026X138
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2025X139
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2024X140
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2026X141
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2020X142
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2022X143
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2021X144
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2021X145
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2021X146
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2024X147
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2024X148
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2020X149
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2022X150
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2025X151
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2024X152
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2020X153
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2026X154
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2021X155
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2023X156
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2021X157
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2025X158
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2022X159
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2025X160
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2025X161
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2024X162
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2020X163
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2023X164
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2023X165
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2021X166
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2026X167
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2024X168
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-HUA-2020X169
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2022X170
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2021X171
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2020X172
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-NOK-2022X173
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2023X174
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2023X175
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-TP--2020X176
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2023X177
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2023X178
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2021X179
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2022X180
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2020X181
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2022X182
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-TP--2026X183
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-CIS-2020X184
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-HUA-2026X185
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-TP--2020X186
+- **Manufacturer:** TP-Link
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-HUA-2021X187
+- **Manufacturer:** Huawei
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2021X188
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-NOK-2025X189
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2023X190
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 1 Gbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2023X191
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2026X192
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-ZTE-2023X193
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2022X194
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 30 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-NOK-2025X195
+- **Manufacturer:** Nokia
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+### Router Model: VDF-ZTE-2025X196
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 10.
+
+### Router Model: VDF-CIS-2021X197
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2020X198
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-ZTE-2025X199
+- **Manufacturer:** ZTE
+- **Max Supported Speed:** 200 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 20.
+
+### Router Model: VDF-CIS-2023X200
+- **Manufacturer:** Cisco
+- **Max Supported Speed:** 100 Mbps
+- **DSL Light Behavior:** If blinking, indicates failure to sync with the central exchange. If solid green, sync is successful. If red, physical line cut.
+- **Internet Light Behavior:** If red, authentication failure (wrong PPPoE username/password). If off, no IP assigned.
+- **Troubleshooting Step 1:** Restart router and wait 2 minutes.
+- **Troubleshooting Step 2:** Factory reset by holding the reset pin for 10 seconds. Reconfigure with VLAN ID 35.
+
+## 3. Network Error Codes Database
+
+#### Error Code E-100
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-101
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-102
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-103
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-104
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-105
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-106
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-107
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-108
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-109
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-110
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-111
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-112
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-113
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-114
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-115
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-116
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-117
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-118
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-119
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-120
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-121
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-122
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-123
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-124
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-125
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-126
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-127
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-128
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-129
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-130
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-131
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-132
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-133
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-134
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-135
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-136
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-137
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-138
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-139
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-140
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-141
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-142
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-143
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-144
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-145
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-146
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-147
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-148
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-149
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-150
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-151
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-152
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-153
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-154
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-155
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-156
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-157
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-158
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-159
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-160
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-161
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-162
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-163
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-164
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-165
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-166
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-167
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-168
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-169
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-170
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-171
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-172
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-173
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-174
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-175
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-176
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-177
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-178
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-179
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-180
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-181
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-182
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-183
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-184
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-185
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-186
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-187
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-188
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-189
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-190
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-191
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-192
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-193
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-194
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-195
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-196
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-197
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-198
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-199
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-200
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-201
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-202
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-203
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-204
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-205
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-206
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-207
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-208
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-209
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-210
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-211
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-212
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-213
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-214
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-215
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-216
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-217
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-218
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-219
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-220
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-221
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-222
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-223
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-224
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-225
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-226
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-227
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-228
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-229
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-230
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-231
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-232
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-233
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-234
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-235
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-236
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-237
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-238
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-239
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-240
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-241
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-242
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-243
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-244
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-245
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-246
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-247
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-248
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-249
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-250
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-251
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-252
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-253
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-254
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-255
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-256
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-257
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-258
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-259
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-260
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-261
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-262
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-263
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-264
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-265
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-266
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-267
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-268
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-269
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-270
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-271
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-272
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-273
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-274
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-275
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-276
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-277
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-278
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-279
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-280
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-281
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-282
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-283
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-284
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-285
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-286
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-287
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-288
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-289
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-290
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-291
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-292
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-293
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-294
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-295
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-296
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-297
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-298
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-299
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-300
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-301
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-302
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-303
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-304
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-305
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-306
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-307
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-308
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-309
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-310
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-311
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-312
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-313
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-314
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-315
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-316
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-317
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-318
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-319
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-320
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-321
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-322
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-323
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-324
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-325
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-326
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-327
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-328
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-329
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-330
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-331
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-332
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-333
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-334
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-335
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-336
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-337
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-338
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-339
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-340
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-341
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-342
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-343
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-344
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-345
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-346
+**Description:** Authentication Timeout
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-347
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-348
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-349
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-350
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-351
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-352
+**Description:** Line Noise Too High
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-353
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-354
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-355
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-356
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-357
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-358
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-359
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-360
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-361
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-362
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-363
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-364
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-365
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-366
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-367
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-368
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-369
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-370
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-371
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-372
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-373
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-374
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-375
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-376
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-377
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-378
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-379
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-380
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-381
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-382
+**Description:** Authentication Timeout
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-383
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-384
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-385
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-386
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-387
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-388
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-389
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-390
+**Description:** Line Noise Too High
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-391
+**Description:** IP Allocation Failure
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-392
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-393
+**Description:** DNS Resolution Error
+**Resolution Protocol:** Instruct customer to change DNS to 8.8.8.8
+
+#### Error Code E-394
+**Description:** Port Disabled at Central
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-395
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-396
+**Description:** Authentication Timeout
+**Resolution Protocol:** Escalate to Tier 2 Network Ops
+
+#### Error Code E-397
+**Description:** Line Noise Too High
+**Resolution Protocol:** Reset port via CRM
+
+#### Error Code E-398
+**Description:** Authentication Timeout
+**Resolution Protocol:** Dispatch Field Technician
+
+#### Error Code E-399
+**Description:** Line Noise Too High
+**Resolution Protocol:** Dispatch Field Technician
+
+## 4. Cross-Department Escalation Matrix
+- **Billing Issues:** Transfer to 111.
+- **Fiber Optic Cuts:** Escalate immediately to Tier 3 Fiber Ops. SLA is 12 hours.
+- **Mass Outage (Area Level):** Do not dispatch individual technicians. Read the 'Global Outage Script' to the customer.
